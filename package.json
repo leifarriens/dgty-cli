@@ -1,0 +1,22 @@
+{
+  "name": "dgty-cli",
+  "version": "1.0.0",
+  "description": "Quick access Dict, google, twitch and youtube",
+  "main": "bin/google.js",
+  "scripts": {
+    "globalinstall": "npm install -g ."
+  },
+  "author": "Leif Arriens",
+  "license": "MIT",
+  "bin": {
+    "google": "./bin/google.js",
+    "twitch": "./bin/twitch.js",
+    "youtube": "./bin/youtube.js",
+    "dict": "./bin/dict.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "open": "^7.4.0",
+    "ora": "^5.4.1"
+  }
+}
